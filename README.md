@@ -4,7 +4,7 @@
 
 When a source record enters the GRM (Golden Record Management) process on the Riversand Data Platform, it is
 assigned a **GRM state** (`new`, `updated`, `done`, `in review`) and a **GRM process state**
-(`Auto Create`, `Auto Merge`, `Manual Merge`, `Interview`).
+(`Auto Create`, `Auto Merge`, `Manual Merge`, `In Review`).
 
 A feature was introduced to capture the **initial** GRM process state — the first process state recorded for
 an entity — in a dedicated attribute called `initialgrmprocessstate`. This attribute is set once when the
