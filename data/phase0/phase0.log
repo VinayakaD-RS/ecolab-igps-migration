@@ -1,0 +1,80 @@
+2026-08-17 22:22:14,383 INFO ============================================================
+2026-08-17 22:22:14,383 INFO Starting: Phase 0 — Scroll events, collect event IDs
+2026-08-17 22:22:14,383 INFO ============================================================
+2026-08-17 22:22:20,171 INFO Total matching events reported by server: 19977
+2026-08-17 22:22:20,172 INFO Page 1: 19977 event IDs collected
+2026-08-17 22:22:20,560 INFO Page 2: 19977 event IDs collected so far
+2026-08-17 22:22:20,840 INFO Scroll cleared.
+2026-08-17 22:22:20,847 INFO Phase 0 complete. 19977 event IDs written to data/phase0/event_ids.json
+2026-08-17 22:22:20,847 INFO Finished: Phase 0 — Scroll events, collect event IDs
+2026-08-17 22:22:20,847 INFO ============================================================
+2026-08-17 22:22:20,847 INFO Starting: Phase 1 — Batch fetch events, extract entity IDs
+2026-08-17 22:22:20,848 INFO ============================================================
+2026-08-17 22:22:20,850 INFO Loaded 19977 event IDs from Phase 0.
+2026-08-17 22:22:24,002 INFO Batch 1/10: fetched 2000 events, 2000 unique entity IDs so far
+2026-08-17 22:22:26,333 INFO Batch 2/10: fetched 2000 events, 4000 unique entity IDs so far
+2026-08-17 22:22:29,440 INFO Batch 3/10: fetched 2000 events, 6000 unique entity IDs so far
+2026-08-17 22:22:32,962 INFO Batch 4/10: fetched 2000 events, 8000 unique entity IDs so far
+2026-08-17 22:22:36,177 INFO Batch 5/10: fetched 2000 events, 10000 unique entity IDs so far
+2026-08-17 22:22:38,724 INFO Batch 6/10: fetched 2000 events, 12000 unique entity IDs so far
+2026-08-17 22:22:41,526 INFO Batch 7/10: fetched 2000 events, 14000 unique entity IDs so far
+2026-08-17 22:22:43,707 INFO Batch 8/10: fetched 2000 events, 16000 unique entity IDs so far
+2026-08-17 22:22:46,007 INFO Batch 9/10: fetched 2000 events, 18000 unique entity IDs so far
+2026-08-17 22:22:48,332 INFO Batch 10/10: fetched 1977 events, 19976 unique entity IDs so far
+2026-08-17 22:22:48,342 INFO Phase 1 complete. 19976 unique entity IDs written to data/phase1/entity_ids.json
+2026-08-17 22:22:48,344 INFO Finished: Phase 1 — Batch fetch events, extract entity IDs
+2026-08-17 22:22:48,344 INFO ============================================================
+2026-08-17 22:22:48,344 INFO Starting: Phase 2 — Filter entities by created date
+2026-08-17 22:22:48,344 INFO ============================================================
+2026-08-17 22:22:48,347 INFO Loaded 19976 entity IDs from Phase 1.
+2026-08-17 22:22:50,451 INFO Batch 1/10: sent 2000 IDs, 339 passed date filter, running total 339
+2026-08-17 22:22:51,498 INFO Batch 2/10: sent 2000 IDs, 304 passed date filter, running total 643
+2026-08-17 22:22:52,483 INFO Batch 3/10: sent 2000 IDs, 307 passed date filter, running total 950
+2026-08-17 22:22:53,293 INFO Batch 4/10: sent 2000 IDs, 345 passed date filter, running total 1295
+2026-08-17 22:22:54,133 INFO Batch 5/10: sent 2000 IDs, 347 passed date filter, running total 1642
+2026-08-17 22:22:54,902 INFO Batch 6/10: sent 2000 IDs, 322 passed date filter, running total 1964
+2026-08-17 22:22:55,634 INFO Batch 7/10: sent 2000 IDs, 332 passed date filter, running total 2296
+2026-08-17 22:22:56,368 INFO Batch 8/10: sent 2000 IDs, 323 passed date filter, running total 2619
+2026-08-17 22:22:57,109 INFO Batch 9/10: sent 2000 IDs, 331 passed date filter, running total 2950
+2026-08-17 22:22:57,994 INFO Batch 10/10: sent 1976 IDs, 298 passed date filter, running total 3248
+2026-08-17 22:22:57,996 INFO Phase 2 complete. 3248 of 19976 entities passed the createdDate filter. Written to data/phase2/filtered_ids.json
+2026-08-17 22:22:57,997 INFO Finished: Phase 2 — Filter entities by created date
+2026-08-17 22:22:57,997 INFO ============================================================
+2026-08-17 22:22:57,997 INFO Starting: Phase 3 — Find initial GRM process state
+2026-08-17 22:22:57,997 INFO ============================================================
+2026-08-17 22:22:57,998 INFO Loaded 3248 entity IDs from Phase 2.
+2026-08-17 22:23:01,570 INFO Progress: 100/3248 processed
+2026-08-17 22:23:04,383 INFO Progress: 200/3248 processed
+2026-08-17 22:23:08,175 INFO Progress: 300/3248 processed
+2026-08-17 22:23:11,556 INFO Progress: 400/3248 processed
+2026-08-17 22:23:14,226 INFO Progress: 500/3248 processed
+2026-08-17 22:23:17,052 INFO Progress: 600/3248 processed
+2026-08-17 22:23:19,991 INFO Progress: 700/3248 processed
+2026-08-17 22:23:23,033 INFO Progress: 800/3248 processed
+2026-08-17 22:23:26,295 INFO Progress: 900/3248 processed
+2026-08-17 22:23:29,280 INFO Progress: 1000/3248 processed
+2026-08-17 22:23:32,732 INFO Progress: 1100/3248 processed
+2026-08-17 22:23:35,799 INFO Progress: 1200/3248 processed
+2026-08-17 22:23:38,483 INFO Progress: 1300/3248 processed
+2026-08-17 22:23:41,198 INFO Progress: 1400/3248 processed
+2026-08-17 22:23:43,913 INFO Progress: 1500/3248 processed
+2026-08-17 22:23:47,118 INFO Progress: 1600/3248 processed
+2026-08-17 22:23:50,378 INFO Progress: 1700/3248 processed
+2026-08-17 22:23:53,049 INFO Progress: 1800/3248 processed
+2026-08-17 22:23:55,655 INFO Progress: 1900/3248 processed
+2026-08-17 22:23:58,536 INFO Progress: 2000/3248 processed
+2026-08-17 22:24:01,297 INFO Progress: 2100/3248 processed
+2026-08-17 22:24:04,025 INFO Progress: 2200/3248 processed
+2026-08-17 22:24:06,722 INFO Progress: 2300/3248 processed
+2026-08-17 22:24:09,512 INFO Progress: 2400/3248 processed
+2026-08-17 22:24:12,184 INFO Progress: 2500/3248 processed
+2026-08-17 22:24:15,601 INFO Progress: 2600/3248 processed
+2026-08-17 22:24:18,400 INFO Progress: 2700/3248 processed
+2026-08-17 22:24:21,182 INFO Progress: 2800/3248 processed
+2026-08-17 22:24:24,077 INFO Progress: 2900/3248 processed
+2026-08-17 22:24:26,744 INFO Progress: 3000/3248 processed
+2026-08-17 22:24:29,682 INFO Progress: 3100/3248 processed
+2026-08-17 22:24:32,400 INFO Progress: 3200/3248 processed
+2026-08-17 22:24:35,122 INFO Phase 3 complete. 3248 entities mapped, 0 warnings. Written to data/phase3/igps_map.json and data/phase3/warnings.json
+2026-08-17 22:24:35,124 INFO Finished: Phase 3 — Find initial GRM process state
+2026-08-17 22:24:35,124 INFO All phases complete.
