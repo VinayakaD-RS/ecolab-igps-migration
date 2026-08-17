@@ -1,0 +1,41 @@
+{
+    "params": {
+        "query": {
+            "filters": {
+                "typesCriterion": [
+                    "entitymanageevent"
+                ],
+                "attributesCriterion": [
+                    {
+                        "previous-grmstate": {
+                            "hasvalue": false
+                        }
+                    },
+                    {
+                        "grmstate": {
+                            "exact": "update"
+                        }
+                    },
+                    {
+                        "entityType": {
+                            "exact": "baseCustomerAccount"
+                        }
+                    }
+                ]
+            }
+        },
+        "sort": {
+            "properties": [
+                {
+                    "modifiedDate": "_DESC",
+                    "sortType": "_DATETIME"
+                }
+            ]
+        },
+        "fields": {
+            "attributes": [
+                "entityId"
+            ]
+        }
+    }
+}

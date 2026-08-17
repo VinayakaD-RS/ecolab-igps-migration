@@ -1,0 +1,13 @@
+{
+  "params": {
+    "query": {
+      "ids": "@@ENTITY_IDS@@",
+      "filters": {
+        "typesCriterion": ["entitymanageevent"]
+      }
+    },
+    "fields": {
+      "attributes": ["entityId"]
+    }
+  }
+}

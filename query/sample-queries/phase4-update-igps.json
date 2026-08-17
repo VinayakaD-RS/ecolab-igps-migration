@@ -1,0 +1,21 @@
+{
+    "entity": {
+        "id": "vd810GRtest19",
+        "name": "Test23242",
+        "type": "baseCustomerAccount",
+        "data": {
+            "attributes": {
+                "initialgrmprocessstate": {
+                    "values": [
+                        {
+                            "id": "1_0_0",
+                            "value": "Auto Merged",
+                            "locale": "en-US",
+                            "source": "internal"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

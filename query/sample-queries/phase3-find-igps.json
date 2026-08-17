@@ -1,0 +1,35 @@
+{
+    "params": {
+        "query": {
+            "id": "1a4800b3-0672-4439-8660-76ccd4e834b1",
+            "filters": {
+                "typesCriterion": [
+                    "baseCustomerAccount"
+                ],
+                "attributesCriterion": [
+                    {
+                        "grmprocessstate": {
+                            "hasvalue": true
+                        }
+                    }
+                ]
+            }
+        },
+        "fields": {
+            "attributes": [
+                "grmprocessstate"
+            ]
+        },
+        "sort": {
+            "properties": [
+                {
+                    "modifiedDate": "_ASC",
+                    "sortType": "_DATETIME"
+                }
+            ]
+        },
+        "options": {
+            "maxRecords": 1
+        }
+    }
+}

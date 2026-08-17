@@ -1,0 +1,20 @@
+{
+  "migrate": true,
+  "entity": {
+    "id": "@@ENTITY_ID@@",
+    "type": "baseCustomerAccount",
+    "data": {
+      "attributes": {
+        "@@ATTRIBUTE_NAME@@": {
+          "values": [
+            {
+              "value": "@@ATTRIBUTE_VALUE@@",
+              "source": "internal",
+              "locale": "en-US"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

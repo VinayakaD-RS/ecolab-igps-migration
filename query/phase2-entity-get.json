@@ -1,0 +1,16 @@
+{
+  "params": {
+    "query": {
+      "ids": "@@ENTITY_IDS@@",
+      "filters": {
+        "typesCriterion": ["baseCustomerAccount"],
+        "propertiesCriterion": [
+          {"createdDate": {"gte": "@@CREATED_DATE_CUTOFF@@"}}
+        ]
+      }
+    },
+    "options": {
+      "isIdOnly": true
+    }
+  }
+}

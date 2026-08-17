@@ -1,0 +1,22 @@
+{
+  "params": {
+    "query": {
+      "id": "@@ENTITY_ID@@",
+      "filters": {
+        "typesCriterion": ["baseCustomerAccount"],
+        "attributesCriterion": [
+          {"grmprocessstate": {"hasvalue": true}}
+        ]
+      }
+    },
+    "fields": {
+      "attributes": ["grmprocessstate"]
+    },
+    "sort": {
+      "properties": [{"modifiedDate": "_ASC", "sortType": "_DATETIME"}]
+    },
+    "options": {
+      "maxRecords": 1
+    }
+  }
+}

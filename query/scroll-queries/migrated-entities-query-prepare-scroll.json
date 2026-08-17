@@ -1,0 +1,23 @@
+{
+  "params": {
+    "prepareScroll": true,
+    "query": {
+      "filters": {
+        "typesCriterion": [
+          "@@ENTITY_TYPE@@"
+        ]
+      }
+    },
+    "sort": {
+      "properties": [
+        {
+          "modifiedDate": "_ASC",
+          "sortType": "_DATETIME"
+        }
+      ]
+    },
+    "options": {
+      "isIdOnly": true
+    }
+  }
+}
